@@ -485,15 +485,15 @@ li {
 }
 
 #main-slide .item .slider-content {
-  z-index: 0;
-  opacity: 0;
+  z-index: 10;
+  opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
 #main-slide .item.active .slider-content {
-  z-index: 0;
+  z-index: 10;
   opacity: 1;
   -webkit-transition: opacity 100ms;
   -moz-transition: opacity 100ms;
